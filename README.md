@@ -7,6 +7,35 @@ The application includes full unit testing using xUnit.
 
 ---
 
+
+##  Prerequisites
+
+To build and run this project, you need:
+
+### 1. .NET 8 SDK  
+Download and install from:  
+https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+
+Verify installation:
+
+```bash
+dotnet --version
+```
+
+You should see:
+
+```
+8.x.x
+```
+
+### 2. Git (for cloning the repository)  
+Download: https://git-scm.com/downloads
+
+Verify:
+
+```bash
+git --version
+```
 ## Problem Summary
 
 The robot operates on a 5x5 grid with the origin `(0,0)` at the **south-west** corner.
